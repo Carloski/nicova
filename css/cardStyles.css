@@ -1,0 +1,14 @@
+.offers {
+    padding-top: 100px;
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.offer-cards {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
