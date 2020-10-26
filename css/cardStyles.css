@@ -3,12 +3,36 @@
 }
 
 .grid-4 {
-    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    width: 100%;
 }
 
-.offer-cards {
+.cards {
+    color:#333;
+  background-color: rgb(241, 239, 239);
+  /* border-radius: 10px; */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.offer-header {
     display: flex;
-    text-align: left;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-name {
+    margin-left: 5px;
 }
